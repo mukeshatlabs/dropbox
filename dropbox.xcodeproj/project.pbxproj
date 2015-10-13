@@ -14,6 +14,11 @@
 		CF7BBB671BCA23EC0022ABE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7BBB651BCA23EC0022ABE6 /* LaunchScreen.storyboard */; };
 		CF7BBB721BCA23EC0022ABE6 /* dropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7BBB711BCA23EC0022ABE6 /* dropboxTests.swift */; };
 		CF7BBB7D1BCA23EC0022ABE6 /* dropboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7BBB7C1BCA23EC0022ABE6 /* dropboxUITests.swift */; };
+		CF7BBB8B1BCA357A0022ABE6 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7BBB8A1BCA357A0022ABE6 /* CreateAccountRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CF7BBB8D1BCA36740022ABE6 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7BBB8C1BCA36740022ABE6 /* CreateAccountViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CF7BBB8F1BCA3CD90022ABE6 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7BBB8E1BCA3CD90022ABE6 /* SignInRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CF7BBB911BCA3DE60022ABE6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7BBB901BCA3DE60022ABE6 /* SignInViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CF7BBB931BCB6B870022ABE6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7BBB921BCB6B870022ABE6 /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		CF7BBB781BCA23EC0022ABE6 /* dropboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dropboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7BBB7C1BCA23EC0022ABE6 /* dropboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dropboxUITests.swift; sourceTree = "<group>"; };
 		CF7BBB7E1BCA23EC0022ABE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF7BBB8A1BCA357A0022ABE6 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		CF7BBB8C1BCA36740022ABE6 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		CF7BBB8E1BCA3CD90022ABE6 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		CF7BBB901BCA3DE60022ABE6 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		CF7BBB921BCB6B870022ABE6 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +110,14 @@
 				CF7BBB5C1BCA23EC0022ABE6 /* AppDelegate.swift */,
 				CF7BBB5E1BCA23EC0022ABE6 /* ViewController.swift */,
 				CF7BBB601BCA23EC0022ABE6 /* Main.storyboard */,
+				CF7BBB921BCB6B870022ABE6 /* SettingsViewController.swift */,
+				CF7BBB901BCA3DE60022ABE6 /* SignInViewController.swift */,
+				CF7BBB8E1BCA3CD90022ABE6 /* SignInRootViewController.swift */,
+				CF7BBB8C1BCA36740022ABE6 /* CreateAccountViewController.swift */,
 				CF7BBB631BCA23EC0022ABE6 /* Assets.xcassets */,
 				CF7BBB651BCA23EC0022ABE6 /* LaunchScreen.storyboard */,
 				CF7BBB681BCA23EC0022ABE6 /* Info.plist */,
+				CF7BBB8A1BCA357A0022ABE6 /* CreateAccountRootViewController.swift */,
 			);
 			path = dropbox;
 			sourceTree = "<group>";
@@ -258,6 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF7BBB8F1BCA3CD90022ABE6 /* SignInRootViewController.swift in Sources */,
+				CF7BBB8D1BCA36740022ABE6 /* CreateAccountViewController.swift in Sources */,
+				CF7BBB931BCB6B870022ABE6 /* SettingsViewController.swift in Sources */,
+				CF7BBB911BCA3DE60022ABE6 /* SignInViewController.swift in Sources */,
+				CF7BBB8B1BCA357A0022ABE6 /* CreateAccountRootViewController.swift in Sources */,
 				CF7BBB5F1BCA23EC0022ABE6 /* ViewController.swift in Sources */,
 				CF7BBB5D1BCA23EC0022ABE6 /* AppDelegate.swift in Sources */,
 			);
